@@ -1,0 +1,17 @@
+
+
+.header{
+    background-color: #1f2937;
+    
+}
+nav{
+    display: block;
+}
+nav .Logo{
+    display: inline-block;
+    justify-items: start;
+}
+nav .links{
+   display: inline-block;
+   justify-items: end;
+}
