@@ -75,7 +75,7 @@ button{
 .container{
     display: flex;
     justify-content: space-around;
-    margin: 10px 200px;
+    margin: 10px 200px 100px 200px;
 }
 .small-container{
     display: flex;
@@ -98,5 +98,27 @@ button{
     text-align: center;
     width: 150px;
     
+}
+.quote{
+    background-color: #E5E7EB;
+    display: block;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+.quote p{
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    margin: 100px 300px 0 300px;
+    padding-top: 100px;
+}
+.quote h3{
+    font-size: 24px;
+    text-align: right;
+    padding: 0 300px;
 }
 
