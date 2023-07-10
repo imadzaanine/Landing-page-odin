@@ -121,4 +121,33 @@ button{
     text-align: right;
     padding: 0 300px;
 }
+.last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 50px;
+    
+}
+.inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+.inner p{
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+.inner span{
+    font-weight: bold;
+    font-size: 24px;
+}
+.inner button{
+    margin-left: 10px;
+    border: 2px solid #F9FAF8 ;
+    
+}
 
