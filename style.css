@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -62,12 +63,14 @@ button{
     color: #E5E7EB;
     border: none;
     margin: 10px 0;
+    cursor: pointer;
     
 }
 .random{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 30px;
 }
 .container{
     display: flex;
@@ -75,7 +78,8 @@ button{
     margin: 10px 200px;
 }
 .small-container{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -86,5 +90,13 @@ button{
     border-style: groove;
     border-radius: 20px;
     border-color: #3882F6;
+}
+.small-container p{
+    font-size: 18px;
+    color: #1f2937;
+    margin: 5px 10px;
+    text-align: center;
+    width: 150px;
+    
 }
 
